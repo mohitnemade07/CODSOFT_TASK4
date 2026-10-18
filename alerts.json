@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-10-19 00:10:28",
+    "source_ip": "192.0.2.10",
+    "destination_ip": "192.0.2.20",
+    "event_type": "Possible TCP port scan",
+    "severity": "High",
+    "details": "10 unique destination ports in 10 seconds"
+  },
+  {
+    "timestamp": "2026-10-19 00:10:28",
+    "source_ip": "192.0.2.30",
+    "destination_ip": "192.0.2.40",
+    "event_type": "High connection rate",
+    "severity": "Medium",
+    "details": "20 TCP SYN packets in 10 seconds"
+  }
+]
